@@ -31,7 +31,7 @@ img {
 
 /* Flexbox para el menu de navegacion padre */
 .navmenu{
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,19 +42,14 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 20px;
-    font-size: 30px;
+    gap: 1.25rem;
+    font-size: 1.875rem;
 }
 
 .content{
     flex: 1;
     color: #E3DCC2;
-}
-
-.imgdiscografia{
-    width: 250px;
-    display: block;
-    margin: 0 auto;
+    padding: 1.25rem;
 }
 
 html, body {
@@ -75,7 +70,7 @@ footer {
 }
 
 .imgfooter{
-    width: 30px;
+    width: 1.875rem;
     display: block;
     margin: 0 auto;
 }
@@ -83,30 +78,30 @@ footer {
 .footermenu{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    font-size: 30px;
+    gap: 1.25rem;
+    font-size: 1.875rem;
 }
 
 .cssfooter{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 0.625rem 3.125rem;
     font-weight: bold;
 }
 
 p{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 h3{
-    font-size: 45px;
-    padding: 15px 0px 0px 15px;
+    font-size: 2.813rem;
+    padding: 0.938rem 0px 0px 0.938rem;
 }
 
 h1{
-    font-size: 45px;
-    padding: 15px 0px 0px 15px;
+    font-size: 2.813rem;
+    padding: 0.938rem 0px 0px 0.938rem;
 }
 
 .contentInicio {
@@ -120,44 +115,38 @@ h1{
 }
 
 .carrouselImg{
-    height: 600px;
+    height: 37.5rem;
 }
 
 .inicioSection2{
     color: #E3DCC2;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 .biografia{
-    padding: 0 30px;
+    padding: 0 1.875rem;
     text-align: justify;
 }
 
 .parrafosInicio{
-    padding: 50px 100px;
+    padding: 3.125rem 6.25rem;
 }
 
-.discoSection1{
-    display: flex;
-    justify-content: space-around;
-}
-
-.discoSection2{
-    display: flex;
-    justify-content: space-around;
+.imgdiscografia{
+    width: 100rem;
+    display: block;
 }
 
 .spotifyPlayer1{
-    padding: 15px 30px;
+    padding: 0.938rem 1.875rem;
 }
 
 .spotifyPlayer2{
-    padding: 15px 30px;
+    padding: 0.938rem 1.875rem;
 }
 
 .contacto{
-    margin: 20px 800px;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .mapaContacto{
@@ -165,12 +154,12 @@ h1{
     justify-content: center;
 }
 
-.acordionFaq{
-    margin: 20px 400px;
-}
+/* .acordionFaq{
+
+} */
 
 .accordionText{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {

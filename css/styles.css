@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Es el tipo de fuente para la letra de la pagina */
+}
+
+header{
+    background-color:#a6a867;
+    font-weight: bold;
+}
+
+ul, ol {
+    /* Para darle estilo a las listas, en este caso remover los bullets */
+    list-style: none;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+a{
+    /* Para decorar la letra */
+    text-decoration: none;
+    /* ColoR de la letra */
+    color: #1B2021;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Flexbox para el menu de navegacion padre */
+.navmenu{
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Flexbox para el menu de navegacion hijo */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.content{
+    flex: 1;
+    color: #E3DCC2;
+}
+
+.imgdiscografia{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+html, body {
+    color: #1B2021;
+    background-color: #1B2021;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #a6a867;
+    flex-shrink: 0;
+}
+
+.imgfooter{
+    width: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footermenu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.cssfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 50px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 45px;
+    padding: 15px 0px 0px 15px;
+}
+
+h1{
+    font-size: 45px;
+    padding: 15px 0px 0px 15px;
+}
+
+.contentInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carrouselInicio{
+    background-color: #1B2021; 
+}
+
+.carrouselImg{
+    height: 600px;
+}
+
+.inicioSection2{
+    color: #E3DCC2;
+    padding-bottom: 30px;
+}
+
+.biografia{
+    padding: 0 30px;
+    text-align: justify;
+}
+
+.parrafosInicio{
+    padding: 50px 100px;
+}
+
+.discoSection1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.discoSection2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.spotifyPlayer1{
+    padding: 15px 30px;
+}
+
+.spotifyPlayer2{
+    padding: 15px 30px;
+}
+
+.contacto{
+    margin: 20px 800px;
+    font-size: 30px;
+}
+
+.mapaContacto{
+    display: flex;
+    justify-content: center;
+}
+
+.acordionFaq{
+    margin: 20px 400px;
+}
+
+.accordionText{
+    font-size: 30px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #E3DC95; /* Change color to blue */
+    color: #1B2021;
+}
+
+.navColor{
+    color: #1B2021;
+}

@@ -151,12 +151,9 @@ h1{
 
 .mapaContacto{
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
-
-/* .acordionFaq{
-
-} */
 
 .accordionText{
     font-size: 1.875rem;
